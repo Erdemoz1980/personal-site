@@ -129,7 +129,9 @@
             <li>MongoDB</li>
           </ul>
           <p class="post-intro">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, fuga earum. Ab eaque fuga rerum!</p>
+           <a href="post.html">Read More</a>
         </div>
+       
       </div>
 
       <div class="post">
@@ -144,6 +146,7 @@
             <li>MongoDB</li>
           </ul>
           <p class="post-intro">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, fuga earum. Ab eaque fuga rerum!</p>
+          <a href="#">Read More</a>
         </div>
       </div>
 
@@ -151,12 +154,13 @@
         <img class="thumbnail" src="./images/sequencer.jpg" />
         <div class="post-preview">
           <h4 class="post-title">A Javascript Sequencer App</h5>
-            <h5>Technologies used:</h5>
+            <h5 class="post-subtitle">Technologies used:</h5>
             <ul>
-              <li>Html / CSS</li>
+              <li>HTML/CSS</li>
               <li>Javascript</li>
             </ul>
           <p class="post-intro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus blanditiis, eveniet numquam accusantium explicabo mollitia ad cumque quo adipisci?</p>
+          <a href="#">Read More</a>
         </div>
       </div>
 
@@ -166,7 +170,24 @@
 
   <section class="s2">
     <div class="container">
-      Contact Me:
+      <h3>Contact Me:</h3>
+
+      <form id="contact-form">
+        <label for="name">Name</label>
+        <input class="input-field" type="text" name="name">
+        
+        <label for="subject">Subject</label>
+        <input class="input-field" type="text" name="subject">
+
+        <label for="email">Email</label>
+        <input class="input-field" type="email" name="email">
+
+        <label for="message">Message</label>
+        <textarea class="input-field" name="message" id="" cols="30" rows="5"></textarea>
+       
+
+        <input id="submit-btn" type="submit" value="Send">
+      </form>
     </div>
   </section>
 </body>

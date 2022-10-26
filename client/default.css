@@ -13,6 +13,8 @@
   --themeBorder:#24292e;
   --previewBg:rgb(251,249,243,0.8);
   --previewShadow:#f0ead6;
+
+  --buttonColor:#000;
 }
 
 
@@ -92,6 +94,7 @@ ul{
   border-bottom: 1px solid var(--borderColor);
   border-radius:5px 5px 0 0;
   display: flex;
+  padding:5px 10px;
   justify-content: space-between;
   align-items: center;
   background-color: var(--mainColor);
@@ -318,6 +321,43 @@ background-color: #192734;
   font-size: 16px;
 }
 
+#contact-form{
+  display: block;
+  max-width: 600px;
+  margin:0 auto;
+  border:1px solid var(--borderColor);
+  padding:15px;
+  background-color: var(--mainColor);
+  margin-bottom: 50px;
+
+
+}
+
+#contact-form label {
+line-height: 2rem;
+}
+
+
+.input-field{
+ width: 100%;
+ padding:10px 5px;
+ background-color: var(--secondaryColor);
+ border-radius: 5px;
+ border:1px solid var(--borderColor);
+ font-size: 14px;
+
+
+}
+
+#submit-btn{
+  margin-top: 10px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:#fff;
+  background-color: var(--buttonColor);
+  border:none;
+}
 
 
 @media screen and (max-width:1200px) {
